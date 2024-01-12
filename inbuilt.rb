@@ -9,3 +9,8 @@ p "Ello, my name is #{name}"
 
 age = 25
 p "I am " + age.to_s
+
+# read name from user
+name = gets 
+p "Ello, your name is, your name is #{name}"
+
