@@ -31,3 +31,40 @@ end
 [1, 2, 3, 4].each_with_index do |number, index|
     puts result = number * index
 end
+
+p "******"
+
+numbers = [1,3,4,5,6,7]
+
+# def cubes(array)
+#     array.each_with_index do  |number, index | 
+#         array[index] = number ** 3
+#     end
+# end
+
+def cubes(array)
+    array.map { |number| number ** 3}
+end
+
+p cubes(numbers)
+
+animals = ["Lion", "Zebra", "Gazelle", "Elephant", 3]
+
+i = 0
+while i < animals.length
+    puts animals[i]
+    i += 1
+end
+
+numbers = ["Lion", "Zebra", "Gazelle", "Elephant", 3]
+
+p "--------"
+
+# next is used to skip strings
+numbers.each do | num |
+    unless num.is_a?(Fixnum)
+        next
+    else 
+        puts num + 1
+    end
+end
