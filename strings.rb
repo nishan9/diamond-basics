@@ -76,3 +76,37 @@ p story[100]
 
 #same thing
 p story.slice(3)
+
+p story.slice(3, 15)
+
+p story.slice(3..15)
+
+p story.slice(3...15)
+
+s = "word"
+
+p s.capitalize
+
+p s.upcase
+
+p s.upcase.downcase
+
+s = "TyHoK"
+
+p s.swapcase
+
+p "Ruby".reverse
+
+word = "hello"
+
+word.upcase!
+
+p word
+
+p "hi hi".include?(".")
+
+p "hi hi".include?(" ")
+
+
+p "".empty?
+
