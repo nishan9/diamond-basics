@@ -44,3 +44,4 @@ numbers = [1, 2, 3, 4, 5]
 
 #extract first 2 numbers
 p numbers = numbers.unshift(245)
+
