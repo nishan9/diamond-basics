@@ -31,4 +31,14 @@ p balls.to_a.flatten
 
 power = [ [:blue, "Jason"], [:red, "Zack"]]
 
-p power.to_h
+p power_hash = power.to_h
+
+p power_hash.delete(:blue)
+
+puts "------"
+
+recipe = { sugar: 3, pepper: 6}
+
+low =  recipe.select { |ing, cal| p cal < 5 }
+
+p low
